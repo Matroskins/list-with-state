@@ -1,0 +1,42 @@
+.selected__hover,
+.unSelected__hover,
+.unSelectedIcon,
+.selectedIcon {
+  display: none;
+}
+.selected__hover,
+.unSelected__hover {
+  color: white;
+  padding: 4px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+}
+.selectedElement,
+.unSelectedElement {
+  margin-top: 8px;
+  margin-left: 5px;
+  display: flex;
+}
+.selectedElement .selectedIcon {
+  color: green;
+  display: block;
+}
+.selectedElement:hover .selectedIcon {
+  display: none;
+}
+.selectedElement:hover .selected__hover {
+  display: block;
+  background-color: green;
+}
+.unSelectedElement .unSelectedIcon {
+  color: grey;
+  display: block;
+}
+.unSelectedElement:hover .unSelectedIcon {
+  display: none;
+}
+.unSelectedElement:hover .selected__hover {
+  display: block;
+  background-color: red;
+}
