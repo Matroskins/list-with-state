@@ -24,8 +24,14 @@ const TableFirstColumn = ({ name, rating, toggleState, key }) => {
         /div> <
         SelectedSymbol selectState = { toggleState }
         key = { key }
-        / > < /
-        div > )
+        / > < /div > )
+}
+
+TableFirstColumn.propTypes = {
+    name: React.PropTypes.string.isRequired,
+    rating: React.PropTypes.number.isRequired,
+    toggleState: React.PropTypes.boolean.isRequired,
+    key: React.PropTypes.number.isRequired
 }
 
 export default TableFirstColumn;

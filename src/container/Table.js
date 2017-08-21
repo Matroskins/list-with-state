@@ -15,7 +15,7 @@ allState.map(RowElement =>
         <
         TableRow firstRowColumn = { RowElement.firstRowColumn }
         secondRowColumn = { RowElement.secondRowColumn }
-        key = { RowElement.key }
+        key = { RowElement.key.toString() }
         />)}  < /div >
         const mapStateToProps = (state) => ({
             allState: state.listElState
