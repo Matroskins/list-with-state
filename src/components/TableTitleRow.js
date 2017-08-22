@@ -1,20 +1,20 @@
 import React from 'react'
 import './componentsStyle/titleRow.css'
-import './componentsStyle/tableFirstColumn.css'
+import './componentsStyle/tableSecondColumn.css'
 
 let TableTitle = () => {
     return ( < div className = 'title-row' >
         <
         div className = 'first-column' > < /div> <
-        div className = 'second-column' >
+        div className = 'ideas-column' >
         <
         p > Ideas < /p> < /
         div > <
-        div className = 'third-column' >
+        div className = 'following-column' >
         <
         p > Following < /p> < /
         div > <
-        div className = 'fourth-column' >
+        div className = 'followers-column' >
         <
         p > Followers < /p> < /
         div > <

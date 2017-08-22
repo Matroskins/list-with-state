@@ -2,9 +2,9 @@
   width: 30%;
   display: flex;
 }
-.stats-columns .ideas-column,
-.stats-columns .following-column,
-.stats-columns .followers-column {
+.ideas-column,
+.following-column,
+.followers-column {
   font-weight: 900;
   font-size: 18px;
   color: #5a5a5a;

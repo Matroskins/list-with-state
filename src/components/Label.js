@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './componentsStyle/Label.css'
 let Label = () => {
     return ( <
-        div > { 'PEOPLE' } < /div>
+        div className = 'label-text' > { 'PEOPLE' } < /div>
     )
 }
 
