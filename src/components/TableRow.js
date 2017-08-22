@@ -4,11 +4,10 @@ import TableFirstColumn from './TableFirstColumn'
 import TableSecondColumn from './TableSecondColumn'
 import './componentsStyle/userRow.css'
 
-const TableRow = ({ firstRowColumn, secondRowColumn, key }) => {
-    debugger;
+const TableRow = ({ firstRowColumn, secondRowColumn, id }) => {
     return ( < div className = "user-row" >
         <
-        TableFirstColumn {...Object.assign({}, firstRowColumn, { key: key }) }
+        TableFirstColumn {...Object.assign({}, firstRowColumn, { id: id }) }
         />  <
         TableSecondColumn {...secondRowColumn }
         />  </div >
@@ -18,7 +17,7 @@ const TableRow = ({ firstRowColumn, secondRowColumn, key }) => {
 TableRow.propTypes = {
     firstRowColumn: React.PropTypes.object.isRequired,
     secondRowColumn: React.PropTypes.object.isRequired,
-    key: React.PropTypes.number.isRequired
+    id: React.PropTypes.number.isRequired
 }
 
 export default TableRow;

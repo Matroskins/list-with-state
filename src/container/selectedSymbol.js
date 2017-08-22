@@ -31,7 +31,7 @@ const mapStateToProps = (state, ownProps) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
     onClick: () => {
-        dispatch(ToggleSelectedSymbol(ownProps.selectState, ownProps.key))
+        dispatch(ToggleSelectedSymbol(ownProps.selectState, ownProps.id))
     }
 })
 

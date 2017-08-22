@@ -1,5 +1,5 @@
-export const ToggleSelectedSymbol = (selectStateValue, keyValue) => ({
+export const ToggleSelectedSymbol = (selectStateValue, id) => ({
     type: 'TOGGLE_SELECTED_SYMBOL',
-    key: keyValue,
+    id: id,
     selectState: !selectStateValue
 })
