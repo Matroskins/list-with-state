@@ -27,5 +27,3 @@ const listElState = (state = initialArray, action) => {
     }
 }
 export default listElState;
-
-// listEl: { firstColumn: { toggleState: !action.toggleStateValue } }
