@@ -1,0 +1,32 @@
+.first-column {
+  width: 68%;
+  display: flex;
+}
+.first-column .column-nameRating {
+  height: 50px;
+  padding: 3px;
+}
+.first-column .column-nameRating .name-user {
+  color: blue;
+  font-size: 20px;
+  text-shadow: black;
+}
+.first-column .column-nameRating .rating-block {
+  padding: 5px;
+  color: #5a5a5a;
+}
+.first-column .column-nameRating .rating-block .rating-number,
+.first-column .column-nameRating .rating-block img {
+  display: inline-block;
+}
+.first-column .column-nameRating .rating-block .rating-number {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.first-column .column-nameRating .rating-block img {
+  height: 10px;
+}
+.first-column .user-photo {
+  width: 50px;
+  height: 50px;
+}

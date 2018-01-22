@@ -1,0 +1,13 @@
+.showMore {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: -1.2px;
+}
+.showMore button {
+  width: 100%;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  border-bottom: 1px solid silver;
+  background-color: white;
+  border-top: 1px dashed silver;
+}
