@@ -11,15 +11,13 @@ let SelectedSymbol = ({ selectState, onClick }) => {
   return (
     <div className={selectedIcon.classNameSelected} onClick={onClick}>
       <div>
-        {' '}
-        <button className="selected__hover"> {selectedIcon.buttonText} </button>{' '}
-      </div>{' '}
+        <button className="selected__hover"> {selectedIcon.buttonText} </button>
+      </div>
       <i className={'selectedIcon ' + ' fa ' + selectedIcon.iconName}> </i>
       <div>
-        {' '}
-        <button className="unSelected__hover"> {selectedIcon.buttonText} </button>{' '}
-      </div>{' '}
-      <i className={'unSelectedIcon ' + ' fa ' + selectedIcon.iconName}> </i>{' '}
+        <button className="unSelected__hover"> {selectedIcon.buttonText} </button>
+      </div>
+      <i className={'unSelectedIcon ' + ' fa ' + selectedIcon.iconName}> </i>
     </div>
   );
 };
