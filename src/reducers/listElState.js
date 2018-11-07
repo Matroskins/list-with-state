@@ -15,7 +15,6 @@ const listElState = (state = initialArray, action) => {
   switch (action.type) {
     case 'TOGGLE_SELECTED_SYMBOL':
       return state.map(listEl => {
-        debugger;
         return listEl.id === action.id
           ? Object.assign({}, listEl, {
               firstRowColumn: Object.assign({}, listEl.firstRowColumn, { toggleState: action.selectState }),
