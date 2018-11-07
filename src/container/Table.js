@@ -7,7 +7,7 @@ import './containersStyle/Table.css';
 
 let Table = ({ allState }) => (
   <div className="table-wrapper">
-    <TableTitleRow> </TableTitleRow>{' '}
+    <TableTitleRow> </TableTitleRow>
     {allState.map(RowElement => (
       <TableRow
         firstRowColumn={RowElement.firstRowColumn}
@@ -15,7 +15,7 @@ let Table = ({ allState }) => (
         key={RowElement.id.toString()}
         id={RowElement.id}
       />
-    ))}{' '}
+    ))}
   </div>
 );
 const mapStateToProps = state => ({
